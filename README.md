@@ -26,21 +26,13 @@ Compute the minimal Levenshtein edit distance for the following pairs of sequenc
 ### _Exercise 2 - Metric function_
 Check if the corresponding functions are metric.
 
-- [ ] a)
+**a)**  <img src="./figures/sheet2-exercise2-formula1.svg" alt="metric1" width=20%/>
 
-  <img src="./figures/sheet2-exercise2-formula1.svg" alt="metric1" width=30%/>
+**b)**  <img src="./figures/sheet2-exercise2-formula2.svg" alt="metric2" width=20%/>
 
-- [ ] b)
+**c)**  <img src="./figures/sheet2-exercise2-formula3.svg" alt="metric3" width=20%/>
 
-  <img src="./figures/sheet2-exercise2-formula2.svg" alt="metric2" width=30%/>
-
-- [ ] c)
-
-  <img src="./figures/sheet2-exercise2-formula3.svg" alt="metric3" width=30%/>
-
-- [ ] d)
-
-  <img src="./figures/sheet2-exercise2-formula4.svg" alt="metric4" width=45%/>
+**d)**  <img src="./figures/sheet2-exercise2-formula4.svg" alt="metric4" width=25%/>
 
 
 ### _Exercise 3 - Programming assignment: Levenshtein Distance_
