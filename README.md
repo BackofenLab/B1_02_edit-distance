@@ -5,7 +5,7 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ---
 ## Bioinformatics 1
 ###### WS 2021/2022
-##### Exercise sheet 2: Edit distance
+##### Exercise sheet 2: Edit operations and alignments
 ---
 ### _Exercise 1 - Levenshtein Distance_
 Compute the minimal Levenshtein edit distance for the following pairs of sequences.
