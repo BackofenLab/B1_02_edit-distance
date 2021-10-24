@@ -91,7 +91,7 @@
       "points": 10
     },
     {
-      "name": "Exercise 3 - programming assignment: item a"
+      "name": "Exercise 3 - programming assignment: item a",
       "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/test_exercises.py > tmp",
       "input": "1b",
