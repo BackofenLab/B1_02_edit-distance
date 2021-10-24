@@ -4,17 +4,9 @@ TEMPLATE = "[x] Response: {}"
 
 def test_exercise():
     question = input()
-    if question == "1a": print(exercise_1a())
-    if question == "1b": print(exercise_1b())
-    if question == "1c": print(exercise_1c())
-    if question == "1d": print(exercise_1d())
-    if question == "1e": print(exercise_1e())
-    if question == "2a": print(exercise_2a())
-    if question == "2b": print(exercise_2b())
-    if question == "2c": print(exercise_2c())
-    if question == "2d": print(exercise_2d())
-    if question == "3a": print(levenshtein_substitution("ATCACTACTAGCTAGACTG","ACCACTGCTAGGTAGCCTG"))
-    if question == "3b": print(levenshtein_deletions("ATCACTACTAGCTAGACTG", "ATCACTACTAGCTAGACTG"))
+    if question == "1a": assert exercise_1a() == 1
+    if question == "1b": assert exercise_1b() == 2
+    if question == "1c": assert exercise_1c() == 4
 
 if __name__ == "__main__":
     test_exercise()

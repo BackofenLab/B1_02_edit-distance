@@ -1,103 +1,25 @@
 {
   "tests": [
     {
-      "name": "Exercise 1.a",
-      "setup": "",
-      "run": "python3 ./.github/test_exercises.py",
+      "name": "Exercise 1.a"
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ./.github/test_exercises.py",
       "input": "1a",
-      "output": "1",
+      "output": "",
       "comparison": "included",
-      "points": 1
+      "timeout": 10,
+      "points": 5
     },
     {
-      "name":"Exercise 1.b",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
+      "name": "Exercise 1.b"
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ./.github/test_exercises.py",
       "input": "1b",
-      "output": "2",
+      "output": "",
       "comparison": "included",
-      "points": 1
-    },
-    {
-      "name":"Exercise 1.c",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "1c",
-      "output": "4",
-      "comparison": "included",
-      "points": 1
-    },
-    {
-      "name":"Exercise 1.d",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "1d",
-      "output": "4",
-      "comparison": "included",
-      "points": 1
-    },
-    {
-      "name":"Exercise 1.e",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "1e",
-      "output": "4",
-      "comparison": "included",
-      "points": 1
-    },
-    {
-      "name":"Exercise 2.a",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "2a",
-      "output": "4",
-      "comparison": "included",
-      "points": 2
-    },
-    {
-      "name":"Exercise 2.b",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "2b",
-      "output": "4",
-      "comparison": "included",
-      "points": 2
-    },
-    {
-      "name":"Exercise 2.c",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "2c",
-      "output": "4",
-      "comparison": "included",
-      "points": 2
-    },
-    {
-      "name":"Exercise 2.d",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "2d",
-      "output": "4",
-      "comparison": "included",
-      "points": 2
-    },
-    {
-      "name":"Exercise 3.a",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "3a",
-      "output": "4",
-      "comparison": "included",
-      "points": 3
-    },
-    {
-      "name":"Exercise 3.b",
-      "setup":"",
-      "run": "python3 ./.github/test_exercises.py",
-      "input": "3b",
-      "output": "4",
-      "comparison": "included",
-      "points": 3
+      "timeout": 10,
+      "points": 5
     }
+
   ]
 }
