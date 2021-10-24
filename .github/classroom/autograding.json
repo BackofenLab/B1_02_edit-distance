@@ -3,7 +3,7 @@
     {
       "name": "Exercise 1.a",
       "setup": "sudo -H pip3 install pytest --quiet",
-      "run": "pytest -qq -s ./tests/test_exercises.py",
+      "run": "pytest -q -s ./tests/test_exercises.py",
       "input": "1a",
       "output": "",
       "comparison": "included",
