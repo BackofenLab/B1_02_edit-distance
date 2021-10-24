@@ -42,44 +42,42 @@ Check if the corresponding functions are metric.
 
 ---
 
-### Good practices
+### Recommended good practices
+Here we have included some best practices to help you solve the exercises as efficiently as possible.
+    
+First, clone the assinment repository.
+    
 
 ```
 $ git clone git@github.com:Bioinformatics-teaching/lecture-2-sequence-alignment-userID.git
 
-```
-Remerber that you use your own user ID
-
-```
-$ emacs -nw src/exercise_sheet2.py
-    
 ```
 
 Fulfill the exercise.
 
 
 ```
-=======
-# Remerber that you use your own user ID
-
-$ git add
-
 $ emacs -nw src/exercise_sheet2.py
+    
+```
 
-# Fulfill the exercise
+Include the changes and make a commit describing the modifications.
 
+
+```
 $ git add src/exercise_sheet2.py
 $ git commit -m "Description of your modifications"
 
 ```
 
-Include the changes and make a commit describing the modifications.
-        
+ 
+Send your results.       
+
 
 ```
 $ git push
 ```
 
-Send your results. Done! But, it would be nice to know something about the score, wouldn't it? Let's check the autograding results. This PR will also be used by the teachers to include specific comments.
+Done! But, it would be nice to know something about the score, wouldn't it? Let's check the autograding results. This PR will also be used by the teachers to include specific comments.
 
 <img src="./figures/sheet2_classroom.gif" alt="Autograding" width=100%/>
