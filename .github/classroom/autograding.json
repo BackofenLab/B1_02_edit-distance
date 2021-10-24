@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Exercise 1.a",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest ./.github/test_exercises.py",
+      "setup": "sudo -H pip3 install pytest --quiet",
+      "run": "pytest -vv ./.github/test_exercises.py",
       "input": "1a",
       "output": "",
       "comparison": "included",
@@ -12,8 +12,8 @@
     },
     {
       "name": "Exercise 1.b",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest ./.github/test_exercises.py",
+      "setup": "sudo -H pip3 install pytest --quiet",
+      "run": "pytest -vv ./.github/test_exercises.py",
       "input": "1b",
       "output": "",
       "comparison": "included",
