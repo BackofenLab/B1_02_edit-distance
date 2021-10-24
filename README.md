@@ -38,3 +38,23 @@ Check if the corresponding functions are metric.
 
 
 **b)** Implement the function **levenshtein_deletion()** which takes two sequences of different length and returns the positions of characters from the longest sequences which should be deleted to transform the sequence into the other one. If such deletion can not be done the function should return *None*.
+---
+### Good practices
+
+`
+$ git clone git@github.com:Bioinformatics-teaching/lecture-2-sequence-alignment-userID.git
+
+# Remerber that you use your own user ID
+
+$ git add
+
+$ emacs -nw src/exercise_sheet2.py
+
+# Fulfill the exercise
+
+$ git add src/exercise_sheet2.py
+$ git commit -m "Description of your modifications"
+
+# Include the changes
+
+`
