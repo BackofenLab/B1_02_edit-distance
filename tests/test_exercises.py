@@ -20,15 +20,16 @@ def test_exercise():
         provided_subs = ""
         for _ in range(10):
             seq1, seq2 = deletion_generator()
-            correct_subs = levenshtein_deletions_correct(seq1, seq2)
+            correct_subs = levenshtein_substitution_correct(seq1, seq2)
             provided_subs = levenshtein_substitution(seq1, seq2)
             if correct_subs != provided_subs:
-                print("Your solution provided the wrong result on:\n"
-                      f"First sequence {seq1}\n"
-                      f"Second sequence {seq2}\n"
+                print("[Your solution provided the wrong result on:\n"
+                      f"First sequence: {seq1}\n"
+                      f"Second sequence: {seq2}\n"
                       f"Your answer is {provided_subs}, the correct answer is {correct_subs}")
                 assert correct_subs == provided_subs
-        assert correct_subs == provided_subs
+
+
     if question == "3b":
         correct_subs = ""
         provided_subs = ""
@@ -64,9 +65,6 @@ def test_exercise():
                     f"Second sequence {seq2}\n"
                     f"Your answer is {provided_dels}, the correct answer is {correct_dels}")
                 assert correct_dels == provided_dels
-            
-        assert correct_dels == provided_dels
-
 
 # helper functions
 
