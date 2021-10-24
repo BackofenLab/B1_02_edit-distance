@@ -1,4 +1,5 @@
 from exercise_sheet2 import *
+from random import randint
 
 def test_exercise():
     question = input()
@@ -113,7 +114,7 @@ def levenshtein_deletions_correct(seq1, seq2):
             index_second += 1
 
         else:
-            current_deletions += index_first
+            current_deletions.append(index_first)
             num_deletions += 1
             index_first += 1
 
