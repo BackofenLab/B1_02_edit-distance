@@ -36,8 +36,6 @@ Check if the corresponding functions are metric.
 
 **a)** Implement the function **levenshtein_substitution()** which takes two sequences of the same length and computes the minimum number of substitutions to transform one into another.
 
-**b)** Implement the function **levenshtein_deletion()** which takes two sequences of different length and returns the positions of characters from the longest sequences which should be deleted to transform the sequence into the other one. If such deletion can not be done the function should return *None*
-
 **b)** Implement the function **levenshtein_deletion()** which takes two sequences of different length and returns the positions of characters from the longest sequences which should be deleted to transform the sequence into the other one. If such deletion can not be done the function should return *None*.
 
 ---
