@@ -36,31 +36,27 @@ Check if the corresponding functions are metric.
 
 **a)** Implement the function **levenshtein_substitution()** which takes two sequences of the same length and computes the minimum number of substitutions to transform one into another.
 
-<<<<<<< HEAD
-
 **b)** Implement the function **levenshtein_deletion()** which takes two sequences of different length and returns the positions of characters from the longest sequences which should be deleted to transform the sequence into the other one. If such deletion can not be done the function should return *None*
----
-=======
+
 **b)** Implement the function **levenshtein_deletion()** which takes two sequences of different length and returns the positions of characters from the longest sequences which should be deleted to transform the sequence into the other one. If such deletion can not be done the function should return *None*.
 
 ---
 
->>>>>>> b3bde1aabfcc03612604966505281cfc030129be
 ### Good practices
 
 ```
 $ git clone git@github.com:Bioinformatics-teaching/lecture-2-sequence-alignment-userID.git
 
-<<<<<<< HEAD
 ```
 Remerber that you use your own user ID
 
 ```
-    
 $ emacs -nw src/exercise_sheet2.py
     
 ```
+
 Fulfill the exercise.
+
 
 ```
 =======
@@ -71,25 +67,19 @@ $ git add
 $ emacs -nw src/exercise_sheet2.py
 
 # Fulfill the exercise
->>>>>>> b3bde1aabfcc03612604966505281cfc030129be
 
 $ git add src/exercise_sheet2.py
 $ git commit -m "Description of your modifications"
 
-<<<<<<< HEAD
 ```
 
 Include the changes and make a commit describing the modifications.
+        
 
 ```
 $ git push
 ```
+
 Send your results. Done! But, it would be nice to know something about the score, wouldn't it? Let's check the autograding results. This PR will also be used by the teachers to include specific comments.
 
 <img src="./figures/sheet2_classroom.gif" alt="Autograding" width=100%/>
-
-    
-=======
-# Include the changes
-```
->>>>>>> b3bde1aabfcc03612604966505281cfc030129be
