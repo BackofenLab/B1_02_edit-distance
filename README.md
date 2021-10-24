@@ -42,7 +42,7 @@ Check if the corresponding functions are metric.
 
 ### Good practices
 
-`
+```
 $ git clone git@github.com:Bioinformatics-teaching/lecture-2-sequence-alignment-userID.git
 
 # Remerber that you use your own user ID
@@ -57,4 +57,4 @@ $ git add src/exercise_sheet2.py
 $ git commit -m "Description of your modifications"
 
 # Include the changes
-`
+```
