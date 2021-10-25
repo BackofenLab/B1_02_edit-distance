@@ -12,7 +12,7 @@
     },
     {
       "name": "Exercise 1 - Levenshtein Distance: item b",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "1b",
       "output": "",
@@ -22,7 +22,7 @@
     },
     {
       "name": "Exercise 1 - Levenshtein Distance: item c",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff,py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "1c",
       "output": "",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Exercise 1 - Levenshtein Distance: item d",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff,py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "1d",
       "output": "",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Exercise 1 - Levenshtein Distance: item e",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff,py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "1e",
       "output": "",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Exercise 2 - Metric function: item a",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "2a",
       "output": "",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Exercise 2 - Metric function: item b",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "2b",
       "output": "",
@@ -72,7 +72,7 @@
     },
     {
      "name": "Exercise 2 - metric function: item c",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "2c",
       "output": "",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Exercise 2 - metric function: item d",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "2d",
       "output": "",
@@ -92,7 +92,7 @@
     },
     {
       "name": "Exercise 3 - programming assignment: item a",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "3a",
       "output": "",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Exercise 3 - programming assignment: item b",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "3b",
       "output": "",
