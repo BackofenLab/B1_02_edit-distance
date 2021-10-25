@@ -50,7 +50,7 @@ $ git clone git@github.com:Bioinformatics-teaching/lecture-2-sequence-alignment-
 
 ```
 
-Fulfill the exercise.
+Do not forget to use your own user ID. Now, answers the questions
 
 
 ```
