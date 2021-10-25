@@ -40,10 +40,9 @@ Check if the corresponding functions are metric.
 
 ---
 
-### Recommended good practices
-Here we have included some best practices to help you solve the exercises as efficiently as possible.
-    
-First, clone the assinment repository.
+#### Recommended good practices
+
+Here we have included some best practices to help you solve the exercises as efficiently as possible. First, clone the assinment repository.
     
 
 ```
