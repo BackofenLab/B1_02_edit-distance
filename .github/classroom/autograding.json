@@ -3,8 +3,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item a",
       "setup": "sudo -H pip3 install pytest --quiet",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "1a",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '1a' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -13,8 +12,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item b",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "1b",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '1b' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -23,8 +21,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item c",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "1c",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '1c' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -33,8 +30,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item d",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "1d",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '1d' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -43,8 +39,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item e",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "1e",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '1e' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -53,8 +48,7 @@
     {
       "name": "Exercise 2 - Metric function: item a",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "2a",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '2a' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -63,8 +57,7 @@
     {
       "name": "Exercise 2 - Metric function: item b",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "2b",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '2b' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -73,8 +66,7 @@
     {
      "name": "Exercise 2 - metric function: item c",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "2c",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '2c' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -83,8 +75,7 @@
     {
       "name": "Exercise 2 - metric function: item d",
       "setup": "",
-      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
-      "input": "2d",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py -k '2d' > tmp",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -93,8 +84,7 @@
     {
       "name": "Exercise 3 - programming assignment: item a",
       "setup": "",
-      "run": "pytest -s --no-header --tb=no ./tests/exercises_sheet2_tests.py",
-      "input": "3a",
+      "run": "pytest -s --no-header --tb=no ./tests/exercises_sheet2_tests.py -k '3a'",
       "output": "",
       "comparison": "included",
       "timeout": 10,
@@ -103,8 +93,7 @@
     {
       "name": "Exercise 3 - programming assignment: item b",
       "setup": "",
-      "run": "pytest -s --no-header --tb=no ./tests/exercises_sheet2_tests.py",
-      "input": "3b",
+      "run": "pytest -s --no-header --tb=no ./tests/exercises_sheet2_tests.py -k '3d'",
       "output": "",
       "comparison": "included",
       "timeout": 10,

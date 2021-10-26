@@ -3,7 +3,7 @@ from random import randint
 import pytest
 
 
-def test_exercise1_a():
+def test_exercise_1a():
     assert exercise_1a() == 1
 
 
