@@ -92,13 +92,13 @@ def test_exercise_3b(seq1, seq2):
             print("\nYour solution provided the wrong result on:\n"
                   f"First sequence {seq1}\n"
                   f"Second sequence {seq2}\n"
-                  f"Your answer is {provided_dels} and the sequence with deletions looks like {seq_1_after_deletions}"
+                  f"Your answer is {provided_dels} and the sequence with deletions looks like {seq_1_after_deletions}\n"
                   f"The correct answer is {correct_dels}")
         else:
             print("\nYour solution provided the wrong result on:\n"
                   f"First sequence {seq1}\n"
                   f"Second sequence {seq2}\n"
-                  f"Your answer is {provided_dels}"
+                  f"Your answer is {provided_dels}\n"
                   f"The correct answer is {correct_dels}")
         assert correct_dels == provided_dels
 
