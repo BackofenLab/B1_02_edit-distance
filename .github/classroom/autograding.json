@@ -3,7 +3,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item a",
       "setup": "sudo -H pip3 install pytest --quiet",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "1a",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item b",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "1b",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item c",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "1c",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item d",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "1d",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item e",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "1e",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "Exercise 2 - Metric function: item a",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "2a",
       "output": "",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "Exercise 2 - Metric function: item b",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "2b",
       "output": "",
       "comparison": "included",
@@ -73,7 +73,7 @@
     {
      "name": "Exercise 2 - metric function: item c",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "2c",
       "output": "",
       "comparison": "included",
@@ -83,7 +83,7 @@
     {
       "name": "Exercise 2 - metric function: item d",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_01.py > tmp",
+      "run": "pytest -s ./tests/exercises_sheet2_tests.py > tmp",
       "input": "2d",
       "output": "",
       "comparison": "included",
@@ -93,7 +93,7 @@
     {
       "name": "Exercise 3 - programming assignment: item a",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_02.py",
+      "run": "pytest -s --no-header --tb=no ./tests/exercises_sheet2_tests.py",
       "input": "3a",
       "output": "",
       "comparison": "included",
@@ -103,7 +103,7 @@
     {
       "name": "Exercise 3 - programming assignment: item b",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff_03.py",
+      "run": "pytest -s --no-header --tb=no ./tests/exercises_sheet2_tests.py",
       "input": "3b",
       "output": "",
       "comparison": "included",
