@@ -61,10 +61,6 @@ def deletion_generator():
     return first_seq, second_seq
 
 
-def levenshtein_substitution_correct(seq1, seq2):
-    return sum([1 for a, b in zip(seq1, seq2) if a != b])
-
-
 def levenshtein_deletions_correct(seq1, seq2):
     seq1, seq2 = sorted([seq1, seq2], reverse=True)
 
