@@ -1,3 +1,13 @@
+"""
+Please fill in the student credentials.
+It will help us to provide you with the personal feedback.
+It is also ok to leave them empty if you wish to solve the tasks anonymously.
+"""
+
+first_name = ""
+last_name = ""
+student_id = ""
+
 
 
 """
