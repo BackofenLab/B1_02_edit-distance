@@ -2,8 +2,7 @@ name: Build and Test
 
 on:
   push:
-    paths:
-      - 'src/exercise_sheet2.py'
+    branches: [ main ]
 
 jobs:
 
