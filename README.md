@@ -8,8 +8,6 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ##### Exercise sheet 2: Edit operations and alignments
 ---
 
-<br/>
-
 ### _Exercise 1 - Levenshtein Distance_
 
 Compute the minimal Levenshtein edit distance for the following pairs of sequences.
@@ -24,7 +22,6 @@ Compute the minimal Levenshtein edit distance for the following pairs of sequenc
 
 **e)** &nbsp;S1=ATCCGAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=TGCATAT
 
-<br/>
 
 ### _Exercise 2 - Metric function_
 
@@ -38,7 +35,6 @@ Check if the corresponding functions are metric.
 
 **d)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula4.svg" alt="metric4" width=25%/>
 
-<br/>
 
 ### _Exercise 3 - Programming assignment: Levenshtein Distance_
 
@@ -50,13 +46,9 @@ different length and returns the positions of characters from the longest sequen
 transform the sequence into the other one.This should be returned as a list of indices (int).
 If such deletion can not be done the function should return *None*. Also, if there are no editing operations needed return an empty list.
 
-<br/>
-
 ---
 
-<br/>
-
-### Recommended good practices
+#### Recommended good practices
 
 Here we have included some best practices helping you solve the exercises as efficiently as possible. First, clone the assignment repository.
     
