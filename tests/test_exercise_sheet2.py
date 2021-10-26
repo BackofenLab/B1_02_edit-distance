@@ -105,7 +105,7 @@ def levenshtein_substitution_correct(seq1, seq2):
 
 
 def levenshtein_deletions_correct(seq1, seq2):
-    seq1, seq2 = sorted([seq1, seq2], reverse=True)
+    seq1, seq2 = sorted([seq1, seq2], key=lambda x: len(x), reverse=True)
     max_allowed_deletions = len(seq1) - len(seq2)
     seq2 += "-" * (len(seq1) - len(seq2))
 
