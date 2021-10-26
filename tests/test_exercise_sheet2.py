@@ -3,7 +3,7 @@ from random import randint
 import pytest
 
 
-def test_exercise1_a():
+def test_exercise_1a():
     assert exercise_1a() == 1
 
 
@@ -86,7 +86,6 @@ def test_exercise_3b(seq1, seq2):
               f"Second sequence {seq2}\n"
               f"Your answer is {provided_dels}, the correct answer is {correct_dels}")
         assert correct_dels == provided_dels
-
 
 
 def levenshtein_substitution_correct(seq1, seq2):
