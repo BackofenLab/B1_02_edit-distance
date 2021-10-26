@@ -3,8 +3,32 @@ from random import randint
 
 def test_exercise():
     question = input()
-    #exercise 3.b
-
+    # exercise 1
+    if question == "1a": assert exercise_1a() == 1
+    if question == "1b": assert exercise_1b() == 2
+    if question == "1c": assert exercise_1c() == 4
+    if question == "1d": assert exercise_1d() == 4
+    if question == "1e": assert exercise_1e() == 4
+    # exercise 2
+    if question == "2a": assert exercise_2a() == False
+    if question == "2b": assert exercise_2b() == True
+    if question == "2c": assert exercise_2c() == False
+    if question == "2d": assert exercise_2d() == True
+    # exercise 3.a
+    if question == "3a":
+        correct_subs = ""
+        provided_subs = ""
+        for _ in range(10):
+            seq1, seq2 = deletion_generator()
+            correct_subs = levenshtein_substitution_correct(seq1, seq2)
+            provided_subs = levenshtein_substitution(seq1, seq2)
+            if correct_subs != provided_subs:
+                print("[Your solution provided the wrong result on:\n"
+                        f"First sequence: {seq1}\n"
+                        f"Second sequence: {seq2}\n"
+                        f"Your answer is {provided_subs}, the correct answer is {correct_subs}")
+                assert correct_subs == provided_subs
+    # exercise 3.b
     if question == "3b":
         correct_subs = ""
         provided_subs = ""
@@ -40,7 +64,8 @@ def test_exercise():
                     f"Second sequence {seq2}\n"
                     f"Your answer is {provided_dels}, the correct answer is {correct_dels}")
                 assert correct_dels == provided_dels
-
+    
+    
 # helper functions
 
 def substitution_generator():
@@ -76,8 +101,6 @@ def levenshtein_deletions_correct(seq1, seq2):
         if index_first == len(seq1) or index_second == len(seq2):
             break
         char_first = seq1[index_first]
-        print(seq1,seq2)
-        print(index_second)
         char_second = seq2[index_second]
 
         if char_first == char_second:
@@ -95,6 +118,8 @@ def levenshtein_deletions_correct(seq1, seq2):
     return num_deletions
 
 
-    
+def levenshtein_substitution_correct(seq1, seq2):
+    return sum([1 for a, b in zip(seq1, seq2) if a != b])
+
 if __name__ == "__main__":
     test_exercise()
