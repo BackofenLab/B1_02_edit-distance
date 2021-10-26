@@ -81,10 +81,15 @@ def test_exercise_3b(seq1, seq2):
     correct_dels = levenshtein_deletions_correct(seq1, seq2)
     provided_dels = levenshtein_deletions(seq1, seq2)
     if correct_dels != provided_dels:
+        seq1, seq2 = sorted([seq1, seq2], reverse=True)
+        seq1_list = list(seq1)
+        seq_1_after_deletions = [char for index, char in enumerate(seq1_list) if (index not in provided_dels)]
+        seq_1_after_deletions = "".join(seq_1_after_deletions)
         print("Your solution provided the wrong result on:\n"
               f"First sequence {seq1}\n"
               f"Second sequence {seq2}\n"
-              f"Your answer is {provided_dels}, the correct answer is {correct_dels}")
+              f"Your answer is {provided_dels} and the sequence with deletions looks like {seq_1_after_deletions}"
+              f"The correct answer is {correct_dels}")
         assert correct_dels == provided_dels
 
 
