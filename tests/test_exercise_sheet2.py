@@ -80,6 +80,9 @@ def test_exercise_3a(seq1, seq2):
 def test_exercise_3b(seq1, seq2):
     correct_dels = levenshtein_deletions_correct(seq1, seq2)
     provided_dels = levenshtein_deletions(seq1, seq2)
+    if provided_dels:
+        provided_dels = sorted(provided_dels)
+
     if correct_dels != provided_dels:
         if provided_dels is not None:
             seq1, seq2 = sorted([seq1, seq2], reverse=True)
