@@ -71,11 +71,13 @@ def levenshtein_deletions_correct(seq1, seq2):
 
     index_first = 0
     index_second = 0
-
+    
     while num_deletions <= max_allowed_deletions:
-        if index_first == len(seq1):
+        if index_first == len(seq1) or index_second == len(seq2):
             break
         char_first = seq1[index_first]
+        print(seq1,seq2)
+        print(index_second)
         char_second = seq2[index_second]
 
         if char_first == char_second:
