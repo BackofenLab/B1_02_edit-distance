@@ -88,15 +88,14 @@ def test_exercise_3b(seq1, seq2):
         assert correct_dels == provided_dels
 
 
-
 def levenshtein_substitution_correct(seq1, seq2):
     return sum([1 for a, b in zip(seq1, seq2) if a != b])
 
 
 def levenshtein_deletions_correct(seq1, seq2):
     seq1, seq2 = sorted([seq1, seq2], reverse=True)
-
     max_allowed_deletions = len(seq1) - len(seq2)
+    seq2 += "-" * (len(seq1) - len(seq2))
 
     current_deletions = []
     num_deletions = 0
@@ -122,4 +121,8 @@ def levenshtein_deletions_correct(seq1, seq2):
     else:
         return None
 
-    return num_deletions
+    return current_deletions
+
+
+if __name__ == "__main__":
+    levenshtein_deletions_correct("ATTT", "AT")
