@@ -103,7 +103,7 @@
     {
       "name": "Exercise 3 - programming assignment: item b",
       "setup": "",
-      "run": "pytest -s ./tests/boring_stuff.py > tmp",
+      "run": "pytest -s ./tests/boring_stuff.py",
       "input": "3b",
       "output": "",
       "comparison": "included",
