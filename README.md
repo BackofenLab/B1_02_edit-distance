@@ -10,11 +10,11 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ### _Exercise 1 - Levenshtein Distance_
 Compute the minimal Levenshtein edit distance for the following pairs of sequences.
 
-**a)** &nbsp;S1=A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=T
+**a)** &nbsp;S1=A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S2=T
 
 **b)** &nbsp;S1=AGATATA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=TATATATA
 
-**c)** &nbsp;S1=AGTCCT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=CGCTCA
+**c)** &nbsp;S1=AGTCCT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S2=CGCTCA
 
 **d)** &nbsp;S1=TGCATAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=ATCCGAT
 
