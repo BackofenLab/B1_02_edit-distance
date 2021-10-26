@@ -23,7 +23,7 @@
     {
       "name": "Exercise 1 - Levenshtein Distance: item c",
       "setup": "",
-      "run": "pytest -s ../tests/test_exercise_sheet2.py -k '1c' > tmp",
+      "run": "pytest -s ./tests/test_exercise_sheet2.py -k '1c' > tmp",
       "input": "",
       "output": "",
       "comparison": "included",
