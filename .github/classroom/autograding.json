@@ -103,7 +103,7 @@
     {
       "name": "Exercise 3 - programming assignment: item b",
       "setup": "",
-      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet2.py -k '3d'",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet2.py -k '3b'",
       "input": "",
       "output": "",
       "comparison": "included",
