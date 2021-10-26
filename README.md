@@ -56,7 +56,7 @@ If such deletion can not be done the function should return *None*. Also, if the
 
 <br/>
 
-#### Recommended good practices
+### Recommended good practices
 
 Here we have included some best practices helping you solve the exercises as efficiently as possible. First, clone the assignment repository.
     
