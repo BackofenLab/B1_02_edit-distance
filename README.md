@@ -70,14 +70,14 @@ Do not forget to use your own user ID. Now, answers the questions.
 
 ```
 $ cd lecture-2-sequence-alignment-userID
-$ emacs -nw src/exercise_sheet2.py
+$ emacs -nw exercise_sheet2.py
 ```
 
 Include the changes and make a commit describing the modifications.
 
 
 ```
-$ git add src/exercise_sheet2.py
+$ git add exercise_sheet2.py
 $ git commit -m "Description of your modifications"
 ```
 
