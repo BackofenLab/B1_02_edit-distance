@@ -122,7 +122,3 @@ def levenshtein_deletions_correct(seq1, seq2):
         return None
 
     return current_deletions
-
-
-if __name__ == "__main__":
-    levenshtein_deletions_correct("ATTT", "AT")
