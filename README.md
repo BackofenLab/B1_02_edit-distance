@@ -3,11 +3,15 @@ Albert-Ludwigs-Universität Freiburg
 Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni-freiburg.de*
 
 ---
+
 ## Bioinformatics 1
 ###### WS 2021/2022
 ##### Exercise sheet 2: Edit operations and alignments
+
 ---
+
 ### _Exercise 1 - Levenshtein Distance_
+
 Compute the minimal Levenshtein edit distance for the following pairs of sequences.
 
 **a)** &nbsp;S1=A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S2=T
@@ -21,6 +25,7 @@ Compute the minimal Levenshtein edit distance for the following pairs of sequenc
 **e)** &nbsp;S1=ATCCGAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=TGCATAT
 
 ### _Exercise 2 - Metric function_
+
 Check if the corresponding functions are metric.
 
 **a)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula1.svg" alt="metric1" width=20%/>
@@ -40,8 +45,7 @@ computes the minimum number of substitutions to transform one into another.
 **b)** Implement the function **levenshtein_deletion()** which takes two sequences of 
 different length and returns the positions of characters from the longest sequences which should be deleted to 
 transform the sequence into the other one.This should be returned as a list of indices (int).
-If such deletion can not be done the function should return *None*. 
-Also, if there are no editing operations needed return an empty list.
+If such deletion can not be done the function should return *None*. Also, if there are no editing operations needed return an empty list.
 
 ---
 
@@ -61,7 +65,6 @@ Do not forget to use your own user ID. Now, answers the questions.
 ```
 $ cd lecture-2-sequence-alignment-userID
 $ emacs -nw src/exercise_sheet2.py
-    
 ```
 
 Include the changes and make a commit describing the modifications.
@@ -70,7 +73,6 @@ Include the changes and make a commit describing the modifications.
 ```
 $ git add src/exercise_sheet2.py
 $ git commit -m "Description of your modifications"
-
 ```
 
  
@@ -82,5 +84,6 @@ $ git push
 ```
 
 Done! But, it would be nice to know something about the score, wouldn't it? Let's check the autograding results. This PR will also be used by the teachers to include specific comments.
+
 
 <img src="./figures/sheet2_classroom.gif" alt="Autograding" width=100%/>
