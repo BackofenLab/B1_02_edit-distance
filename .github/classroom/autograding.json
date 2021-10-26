@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Exercise 1 - Levenshtein Distance: item a",
-      "setup": "sudo -H pip3 install pytest --quiet; gunzip ./tests/boring_stuff.py.gz",
+      "setup": "sudo -H pip3 install pytest --quiet",
       "run": "pytest -s ./tests/boring_stuff.py > tmp",
       "input": "1a",
       "output": "",

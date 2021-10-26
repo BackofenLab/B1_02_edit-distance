@@ -12,13 +12,13 @@ Compute the minimal Levenshtein edit distance for the following pairs of sequenc
 
 **a)** &nbsp;S1='A'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2='T'
 
-**b)** &nbsp;S1='AGATATA'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2='TATATATA'
+**b)** &nbsp;S1=AGATATA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=TATATATA
 
-**c)** &nbsp;S1='AGTCCT'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2='CGCTCA'
+**c)** &nbsp;S1=AGTCCT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=CGCTCA
 
-**d)** &nbsp;S1='TGCATAT'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2='ATCCGAT'
+**d)** &nbsp;S1=TGCATAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=ATCCGAT
 
-**e)** &nbsp;S1='ATCCGAT'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2='TGCATAT'
+**e)** &nbsp;S1=ATCCGAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S2=TGCATAT
 
 ### _Exercise 2 - Metric function_
 Check if the corresponding functions are metric.
@@ -54,6 +54,7 @@ Do not forget to use your own user ID. Now, answers the questions.
 
 
 ```
+$ cd lecture-2-sequence-alignment-userID
 $ emacs -nw src/exercise_sheet2.py
     
 ```
