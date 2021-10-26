@@ -65,7 +65,7 @@ def test_exercise_3a(seq1, seq2):
     correct_subs = levenshtein_substitution_correct(seq1, seq2)
     provided_subs = levenshtein_substitution(seq1, seq2)
     if correct_subs != provided_subs:
-        print("[Your solution provided the wrong result on:\n"
+        print("\nYour solution provided the wrong result on:\n"
               f"First sequence: {seq1}\n"
               f"Second sequence: {seq2}\n"
               f"Your answer is {provided_subs}, the correct answer is {correct_subs}")
@@ -89,13 +89,13 @@ def test_exercise_3b(seq1, seq2):
             seq1_list = list(seq1)
             seq_1_after_deletions = [char for index, char in enumerate(seq1_list) if (index not in provided_dels)]
             seq_1_after_deletions = "".join(seq_1_after_deletions)
-            print("Your solution provided the wrong result on:\n"
+            print("\nYour solution provided the wrong result on:\n"
                   f"First sequence {seq1}\n"
                   f"Second sequence {seq2}\n"
                   f"Your answer is {provided_dels} and the sequence with deletions looks like {seq_1_after_deletions}"
                   f"The correct answer is {correct_dels}")
         else:
-            print("Your solution provided the wrong result on:\n"
+            print("\nYour solution provided the wrong result on:\n"
                   f"First sequence {seq1}\n"
                   f"Second sequence {seq2}\n"
                   f"Your answer is {provided_dels}"
