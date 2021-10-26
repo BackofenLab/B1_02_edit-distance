@@ -56,7 +56,6 @@ Here we have included some best practices helping you solve the exercises as eff
 
 ```
 $ git clone git@github.com:Bioinformatics-teaching/lecture-2-sequence-alignment-userID.git
-
 ```
 
 Do not forget to use your own user ID. Now, answers the questions.
