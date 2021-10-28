@@ -59,7 +59,7 @@ def substitution_generator():
 
 @pytest.mark.parametrize(
     "seq1,seq2",
-    [deletion_generator() for x in range(10)]
+    [substitution_generator() for x in range(10)]
 )
 def test_exercise_3a(seq1, seq2):
     correct_subs = levenshtein_substitution_correct(seq1, seq2)
