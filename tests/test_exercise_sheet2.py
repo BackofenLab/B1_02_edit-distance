@@ -71,36 +71,32 @@ def test_exercise_3a(seq1, seq2):
               f"Your answer is {provided_subs}, the correct answer is {correct_subs}")
         assert correct_subs == provided_subs
 
-
 @pytest.mark.parametrize(
     "seq1,seq2",
     [deletion_generator() for _ in range(10)] +
-    [substitution_generator() for _ in range(10)]
+    [substitution_generator() for _ in range(10)] +
+    [
+        ("AGTGGTGT", "AGTCGG")
+    ]
 )
 def test_exercise_3b(seq1, seq2):
     correct_dels = levenshtein_deletions_correct(seq1, seq2)
     provided_dels = levenshtein_deletions(seq1, seq2)
-    if provided_dels:
-        provided_dels = sorted(provided_dels)
-
-    if correct_dels != provided_dels:
-        if provided_dels is not None:
-            seq1, seq2 = sorted([seq1, seq2], reverse=True)
-            seq1_list = list(seq1)
-            seq_1_after_deletions = [char for index, char in enumerate(seq1_list) if (index not in provided_dels)]
-            seq_1_after_deletions = "".join(seq_1_after_deletions)
-            print("\nYour solution provided the wrong result on:\n"
-                  f"First sequence {seq1}\n"
-                  f"Second sequence {seq2}\n"
-                  f"Your answer is {provided_dels} and the sequence with deletions looks like {seq_1_after_deletions}\n"
-                  f"The correct answer is {correct_dels}")
+    if correct_dels is None:
+        assert provided_dels is None
+    else:
+        if len(seq1) > len(seq2):
+            first = seq1
+            second = seq2
         else:
-            print("\nYour solution provided the wrong result on:\n"
-                  f"First sequence {seq1}\n"
-                  f"Second sequence {seq2}\n"
-                  f"Your answer is {provided_dels}\n"
-                  f"The correct answer is {correct_dels}")
-        assert correct_dels == provided_dels
+            first = seq2
+            second = seq1
+        first = "".join(
+            [l if x not in provided_dels else "" for x, l in enumerate(first)])
+        if first != second:
+            print( f"\nYour sequence after deletions is:\n{first}" \
+                                f"\nIt should be: \n{second}")
+        assert first == second
 
 
 def levenshtein_substitution_correct(seq1, seq2):
