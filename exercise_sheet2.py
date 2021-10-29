@@ -22,7 +22,7 @@ Exercise 1 - Levenshtein Distance
 
 def exercise_1a():
     """
-    S1= "A", S2= ""
+    S1= "A", S2= "T"
     """
     return None
 
