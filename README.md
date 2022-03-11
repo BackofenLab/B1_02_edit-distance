@@ -29,9 +29,9 @@ Check if the corresponding functions are metric.
 
 **a)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula1.svg" alt="metric1" width=20%/>
 
-**b)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula2.svg" alt="metric2" width=20%/>
+**b)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula3.svg" alt="metric2" width=20%/>
 
-**c)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula3.svg" alt="metric3" width=20%/>
+**c)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula2.svg" alt="metric3" width=20%/>
 
 **d)** &nbsp;&nbsp;<img src="./figures/sheet2-exercise2-formula4.svg" alt="metric4" width=25%/>
 
