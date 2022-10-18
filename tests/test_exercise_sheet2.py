@@ -3,42 +3,6 @@ from random import randint
 import pytest
 
 
-def test_exercise_1a():
-    assert exercise_1a() == 1
-
-
-def test_exercise_1b():
-    assert exercise_1b() == 2
-
-
-def test_exercise_1c():
-    assert exercise_1c() == 4
-
-
-def test_exercise_1d():
-    assert exercise_1d() == 4
-
-
-def test_exercise_1e():
-    assert exercise_1e() == 4
-
-
-def test_exercise_2a():
-    assert exercise_2a() is False
-
-
-def test_exercise_2b():
-    assert exercise_2b() is True
-
-
-def test_exercise_2c():
-    assert exercise_2c() is False
-
-
-def test_exercise_2d():
-    assert exercise_2d() is True
-
-
 def deletion_generator():
     first_seq = "".join(["AGCT"[randint(0, 3)] for _ in range(randint(7, 10))])
     second_seq = list(first_seq)
