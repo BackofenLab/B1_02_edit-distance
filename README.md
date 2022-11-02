@@ -4,7 +4,6 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 
 ---
 ## Bioinformatics 1
-###### WS 2021/2022
 ##### Exercise sheet 2: Edit operations and alignments
 ---
 
