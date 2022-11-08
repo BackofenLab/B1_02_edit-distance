@@ -1,9 +1,9 @@
 from exercise_sheet2 import *
-from random import randint
+from random import randint, seed
 import pytest
 
 
-random.seed(42)
+seed(42)
 
 
 def deletion_generator():
