@@ -15,7 +15,6 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 **a)** Implement the function **levenshtein_substitution()** which takes two sequences of the same length and 
 computes the minimum number of substitutions to transform one into another.
 
-**b)** Implement the function **levenshtein_deletion()** which takes two sequences of 
-different length and returns the positions of characters from the longest sequences which should be deleted to 
+**b)** Implement the function **levenshtein_deletion()** which takes two sequences and returns the positions of characters from the longest sequences which should be deleted to 
 transform the sequence into the other one.This should be returned as a list of indices (int).
-If such deletion can not be done the function should return *None*. Also, if there are no editing operations needed return an empty list
+If such deletion can not be done the function should return *None*. Also, if there are no editing operations needed the function should return an empty list.
