@@ -3,6 +3,9 @@ from random import randint
 import pytest
 
 
+random.seed(42)
+
+
 def deletion_generator():
     first_seq = "".join(["AGCT"[randint(0, 3)] for _ in range(randint(7, 10))])
     second_seq = list(first_seq)
